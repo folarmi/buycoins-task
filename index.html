@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/bb9354476d.js"></script>
+    <title>BuyCoins</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav> 
+            <div class="mobile">
+                <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-bell fa-2x" aria-hidden="true"></i>
+            </div>
+            
+            <div class="nav-desktop">
+                <section class="left-nav">
+                    <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                    <label for="search-repo">
+                        <input type="text" name="search-repo" id="search-repo" placeholder="Search or jump to...">
+                    </label>
+                        <ul>
+                            <li>Pull requests</li>
+                            <li>Issues</li>
+                            <li>Marketplace</li>
+                            <li>Explore</li>
+                        </ul>
+                </section>
+
+            
+                <section class="right-nav">
+                    <i class="fa fa-bell" aria-hidden="true"></i>
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                    <img class="nav-img" src="https://avatars1.githubusercontent.com/u/41623833?s=460&u=48d2ac534e9ff3ae9400cbbe9bc9de52efdb4a33&v=4" alt="profile-picture">
+                </section>
+        </div>
+        </nav>
+
+
+        <div class="grid-layout">
+            <div class="column1">
+        <div class="profile">
+            <img class="profile__img" src="https://avatars1.githubusercontent.com/u/41623833?s=460&u=48d2ac534e9ff3ae9400cbbe9bc9de52efdb4a33&v=4" alt="profile-picture">
+            <div class="profile__text">
+            <h1>Folasayo Akinyosoye</h1>
+            <p>folarmi</p>
+        </div>
+        </div>
+
+         
+        <div class="about">
+            <p>Currently job hunting. Open to Internship/Junior level web development Opportunities..</p>
+        </div>
+    </div>
+
+        <div class="column2">
+        <section class="tabs border">
+            <p>Overview</p>
+            <p id="repository">Repositories(50)</p>
+            <p id="projects">Projects</p>
+            <p>Packages</p>
+        </section>
+
+        <form action="" class="border">
+            <label for="find-repo">
+                <input type="text" name="find-repo" id="repo" placeholder="Find a repository...">
+            </label>
+        </form>
+
+        <section class="display-repo">
+
+        </section>
+    </div>
+    </div>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
