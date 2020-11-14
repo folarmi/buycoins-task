@@ -22,7 +22,7 @@ query GetMyRepos {
 }
 `;
 
-const token = "c0c6649a83c3252a4cc7adb66889738c750f59f8";
+const token = "82765f8ea194811022c536ebd7130f04a9a75a33";
 const auth = {
   headers: {
     authorization: "token " + token,
@@ -51,7 +51,7 @@ window.onload = (event) => {
             <p>${repo.primaryLanguage.name}</p>
             <p><span><i class="fa fa-star-o" aria-hidden="true"></i></span>${repo.stargazers.totalCount}</p>
             <p><span><i class="fa fa-code-fork" aria-hidden="true"></i></span>${repo.forkCount}</p>
-            <p>${repo.updatedAt}</p>
+            
             </div>
             `);
     });
