@@ -1,5 +1,6 @@
 import { graphql } from "https://cdn.pika.dev/@octokit/graphql";
 
+console.log(key);
 const query = `
 query GetMyRepos {
     viewer {
@@ -22,7 +23,7 @@ query GetMyRepos {
 }
 `;
 
-const token = "82765f8ea194811022c536ebd7130f04a9a75a33";
+const token = key;
 const auth = {
   headers: {
     authorization: "token " + token,
