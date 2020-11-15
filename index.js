@@ -1,6 +1,6 @@
 import { graphql } from "https://cdn.pika.dev/@octokit/graphql";
+import key from "./env.js";
 
-console.log(key);
 const query = `
 query GetMyRepos {
     viewer {
